@@ -3,12 +3,12 @@ class Config:
 
     MYSQL_HOST = '127.0.0.1'
     MYSQL_USER = 'root'
-    MYSQL_PASSWORD = 'aifeifei'
-    MYSQL_DBNAME = 'easy_admin'
+    MYSQL_PASSWORD = ''
+    MYSQL_DBNAME = 'app_admin'
 
     # 腾讯云COS
-    QCLOUD_COS_APP_ID = 1252137158  # app_id
-    QCLOUD_COS_SECRET_ID = 'AKIDLafZN1qhkjaHuPnsqcEeudFi18LMQnDU'  # secret_id
-    QCLOUD_COS_SECRET_KEY = 'DE3xjJjz5zgBUcbmqjQwPnIguwIYfdPz'  # secret_key
-    QCLOUD_COS_BUCKET = 'test'  # bucket
-    QCLOUD_COS_DIR_PATH = '/myFloder/'  # cos_path
+    QCLOUD_COS_APP_ID = 0  # app_id
+    QCLOUD_COS_SECRET_ID = ''  # secret_id
+    QCLOUD_COS_SECRET_KEY = ''  # secret_key
+    QCLOUD_COS_BUCKET = ''  # bucket
+    QCLOUD_COS_DIR_PATH = ''  # cos_path
